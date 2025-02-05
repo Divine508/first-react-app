@@ -8,7 +8,7 @@ const Layout = () => {
       <header className="fixed-top ">
         <NavBar />
       </header>
-      <main className="mt-5">
+      <main style={{ marginTop: "100px" }}>
         <AppRoutes />
       </main>
       <footer></footer>

@@ -1,5 +1,17 @@
+import { Outlet } from "react-router-dom";
+
 const AuthPage = () => {
-  return <h1>This is auth page</h1>;
+  return (
+    <section className="container">
+      <div className="row">
+        <div className="col-lg-3"></div>
+        <div className="col-lg-6">
+          <Outlet />
+        </div>
+        <div className="col-lg-3"></div>
+      </div>
+    </section>
+  );
 };
 
 export default AuthPage;
